@@ -45,8 +45,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-<<<<<<< HEAD
 Feito com ♥ by Paulo Alex Evaristo
-=======
-Feito com ♥ by Paulo Alex Evaristo)
->>>>>>> b5efb7f6f6a2bc13c973d06231cf7b78a69a411e
