@@ -276,6 +276,10 @@ header {
   animation: appear 0.2s forwards;
 }
 
+.card p {
+  color: #f7dd43;
+}
+
 @keyframes appear {
   0% {
     transform: translateY(-50px);

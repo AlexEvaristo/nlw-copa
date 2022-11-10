@@ -14,6 +14,7 @@ function createCard(date, day, games) {
   return `
   <div class="card" style="animation-delay: ${delay}s">
         <h2>${date} <span>${day}</span></h2>
+        <p>GRUPO G</p>
         <ul>
             ${games}    
         </ul>
@@ -21,11 +22,10 @@ function createCard(date, day, games) {
     `
 }
 document.querySelector("#cards").innerHTML =
+
+  createCard("24/11/", "quinta", createGame("switzerland", "07:00", "cameroon")) +
   createCard("24/11/", "quinta", createGame("brazil", "16:00", "serbia")) +
-  createCard(
-    "24/11/",
-    "quinta",
-    createGame("switzerland", "13:00", "brazil") +
-      createGame("portugal", "16:00", "uruguay")
-  ) +
-  createCard("02/12/", "quinta", createGame("brazil", "16:00", "cameroon"))
+  createCard("28/11/", "segunda", createGame("cameroon", "07:00", "serbia")) +
+  createCard("28/11/", "segunda", createGame("switzerland", "10:00", "brazil")) +
+  createCard("02/12/", "sexta", createGame("brazil", "16:00", "cameroon")) +
+  createCard("02/12/", "sexta", createGame("serbia", "16:00", "switzerland")) 
