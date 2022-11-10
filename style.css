@@ -189,6 +189,13 @@ body * {
   padding-top: 52px;
 }
 
+#app p {
+  color: #f7dd43;
+  margin: 20px;
+  align-content: center;
+  
+}
+
 header {
   margin-bottom: 63px;
   text-align: center;
@@ -275,10 +282,17 @@ header {
   opacity: 0;
   animation: appear 0.2s forwards;
 }
+#footer {
+  font-size: small;
+  padding: 12px 23px;
+  text-align: center;
+  margin: 10px;
+  color: #047c3f;
+  align-content: center;
+  opacity: 30%;
 
-.card p {
-  color: #f7dd43;
 }
+
 
 @keyframes appear {
   0% {
